@@ -16,7 +16,7 @@ export const shipOrderValidator = [
 
 export const getOrderStatusValidator = [
     ...baseIdValidator("cid"),
-    ...baseIdValidator("pid")
+    ...baseIdValidator("bid")
 ]
 
 export const createOrder = async (req: Request, res: Response) => {
@@ -28,6 +28,8 @@ export const createOrder = async (req: Request, res: Response) => {
         const { title, author, name, shippingAddress } = validatedData;
         const bid = await db.getBookId(title, author);
         const cid = await db.getCustomerId(name, shippingAddress);
+        console.log("bid: "+bid),
+        console.log("cid: "+cid)
         await db.createPurchaseOrder(bid, cid);
         res.status(201).json({ 'status': 'success' });
     }
