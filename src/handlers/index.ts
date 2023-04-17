@@ -1,12 +1,17 @@
 export {
     createBook,
     getPrice,
+    createBookValidator,
+    baseBookValidator,
 } from './books';
 
 export {
     createCustomer,
     updateCustomerAddress,
     getCustomerBalance,
+    createCustomerValidator,
+    updateCustomerAddressValidator,
+    getCustomerBalanceValidator,
 } from './customers';
 
 export {
@@ -14,4 +19,7 @@ export {
     shipOrder,
     getOrderStatus,
     getShipmentStatus,
+    createOrderValidator,
+    shipOrderValidator,
+    getOrderStatusValidator
 } from './orders';
