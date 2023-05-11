@@ -1,0 +1,12 @@
+[2023-05-10T18:34:25.784] [INFO] app - Book creates successfully title
+[2023-05-10T18:35:23.286] [INFO] app - Book creates successfully title:  The S3 Family Vol 3
+[2023-05-10T18:46:15.203] [INFO] app - User created successfully
+[2023-05-10T18:46:57.563] [INFO] app - User created successfully
+[2023-05-10T18:53:08.720] [INFO] app - 2 updated successfully
+[2023-05-10T21:35:37.507] [INFO] app - Purchase order created successfully
+[2023-05-10T22:02:34.945] [INFO] app - 2purchased book successfully
+[2023-05-10T22:05:29.795] [INFO] app - 2 purchased book successfully
+[2023-05-10T22:06:50.946] [INFO] app - 2 purchased book successfully
+[2023-05-10T22:16:55.340] [INFO] app - 2 purchased book successfully
+[2023-05-10T22:17:17.895] [INFO] app - 2 purchased book successfully
+[2023-05-10T22:17:47.520] [INFO] app - 2 purchased book successfully

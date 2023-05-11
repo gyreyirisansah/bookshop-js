@@ -47,7 +47,7 @@ export const baseIdValidator =(attr:string) =>{
 }
 
 export const baseShippingAddress =[
-    check("shippingAddress")
+    check("address")
     .trim()
     .not()
     .isEmpty()

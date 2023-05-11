@@ -23,7 +23,8 @@ CREATE TABLE PurchaseOrders (
     id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     bookId INTEGER NOT NULL REFERENCES Books(id),
     customerId INTEGER NOT NULL REFERENCES Customers(id),
-    shipped INTEGER NOT NULL
+    shipped INTEGER NOT NULL,
+    checkedOut INTEGER NOT NULL
 );
 
 INSERT INTO Books (title, author, price) VALUES ('The Hitchhikers Guide to the Galaxy', 'Douglas Adams', 12.99);

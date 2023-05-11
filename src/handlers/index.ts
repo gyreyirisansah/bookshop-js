@@ -1,25 +1,27 @@
 export {
-    createBook,
-    getPrice,
-    createBookValidator,
-    baseBookValidator,
-} from './books';
+  createBook,
+  getPrice,
+  purchaseBook,
+  createBookValidator,
+  baseBookValidator,
+  purchaseBookValidator,
+} from "./books";
 
 export {
-    createCustomer,
-    updateCustomerAddress,
-    getCustomerBalance,
-    createCustomerValidator,
-    updateCustomerAddressValidator,
-    getCustomerBalanceValidator,
-} from './customers';
+  createCustomer,
+  updateCustomerAddress,
+  getCustomerBalance,
+  createCustomerValidator,
+  updateCustomerAddressValidator,
+  getCustomerBalanceValidator,
+} from "./customers";
 
 export {
-    createOrder,
-    shipOrder,
-    getOrderStatus,
-    getShipmentStatus,
-    createOrderValidator,
-    shipOrderValidator,
-    getOrderStatusValidator
-} from './orders';
+  createOrder,
+  shipOrder,
+  getOrderStatus,
+  getShipmentStatus,
+  createOrderValidator,
+  shipOrderValidator,
+  getOrderStatusValidator,
+} from "./orders";

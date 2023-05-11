@@ -1,0 +1,25 @@
+[2023-05-10T18:38:14.620] [ERROR] errors - Get Price: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-05-10T18:50:50.334] [ERROR] errors - Update Customer: Error: SQLITE_CONSTRAINT: NOT NULL constraint failed: Customers.shippingAddress
+[2023-05-10T18:52:57.896] [ERROR] errors - Update Customer: Error: SQLITE_CONSTRAINT: NOT NULL constraint failed: Customers.shippingAddress
+[2023-05-10T19:04:09.610] [ERROR] errors - Create Order: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-05-10T19:04:56.282] [ERROR] errors - Create Order: Error: SQLITE_CONSTRAINT: NOT NULL constraint failed: PurchaseOrders.checkedOut
+[2023-05-10T21:38:06.794] [ERROR] errors - Shipment status: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-05-10T21:41:25.697] [ERROR] errors - Shipment status: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-05-10T21:41:50.279] [ERROR] errors - Shipment status: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T21:43:31.632] [ERROR] errors - Shipment status: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T21:45:01.461] [ERROR] errors - Shipment status: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T21:45:25.197] [ERROR] errors - Shipment status: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T21:46:56.997] [ERROR] errors - Shipment status: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T21:48:58.190] [ERROR] errors - Shipment status: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T21:50:41.747] [ERROR] errors - Shipment status: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T21:52:38.647] [ERROR] errors - Ship Order: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-05-10T21:53:31.845] [ERROR] errors - Ship Order: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-05-10T21:53:45.725] [ERROR] errors - Ship Order: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-05-10T21:54:54.931] [ERROR] errors - Ship Order: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-05-10T21:56:23.443] [ERROR] errors - Ship Order: TypeError: Cannot read properties of undefined (reading 'id')
+[2023-05-10T22:01:32.703] [ERROR] errors - Insufficient balance for user 2
+[2023-05-10T22:01:55.116] [ERROR] errors - Insufficient balance for user 2
+[2023-05-10T22:12:33.702] [ERROR] errors - Purchase Book: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T22:14:04.226] [ERROR] errors - Purchase Book: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T22:14:51.521] [ERROR] errors - Purchase Book: TypeError: Cannot read properties of undefined (reading 'shipped')
+[2023-05-10T22:15:21.216] [ERROR] errors - Purchase Book: TypeError: Cannot read properties of undefined (reading 'shipped')
