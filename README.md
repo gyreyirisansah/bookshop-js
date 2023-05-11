@@ -58,7 +58,6 @@ To achieve a type-first validation, we used an express validator. We created a b
 From the base validators, we created validators for each request that also matches a defined type. For example, we made the book validator, which includes the author (From the name base validator), title, and price.
 
 ## Flow of Application
-
 The flow chart below depicts the flow of inputs in the application.
 ![Flow of Application](flowchat.png)
 
