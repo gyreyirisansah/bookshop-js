@@ -60,7 +60,7 @@ From the base validators, we created validators for each request that also match
 ## Flow of Application
 
 The flow chart below depicts the flow of inputs in the application.
-![Alt adding polls](flowchat.PNG)
+![Flow of Application](flowchat.png)
 
 
 ## Note: An internal server response may be due to fetching a data that is not available.
